@@ -1,3 +1,6 @@
+/**
+ * 洛谷 P2212 MST 裸题
+*/
 #include <iostream>
 #include <algorithm>
 #include <cstring>
