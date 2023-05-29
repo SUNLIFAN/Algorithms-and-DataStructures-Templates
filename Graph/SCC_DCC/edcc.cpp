@@ -44,6 +44,7 @@ void tarjan(int u, int inEdge) {
         }
     }
 
+    // 在一个双连通分量的最高点弹栈，跟 SCC 类似
     if (dfn[u] == low[u]) {
         int v;
         cnt ++;
